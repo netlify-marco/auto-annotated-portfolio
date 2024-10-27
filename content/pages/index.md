@@ -48,7 +48,7 @@ sections:
     title: Experiences through the technical assessment
     subtitle: ''
     text: >
-      1.  Talk about how you made your site and why you chose the tools you did.
+      1. Talk about how you made your site and why you chose the tools you did.
       Briefly explain one challenge you experienced in setting up this site and
       how you overcame it.
 
@@ -71,7 +71,7 @@ sections:
       and I am already familiar with these tools.
 
 
-      2.  What did you think of our service during the time you used it? Provide
+      2. What did you think of our service during the time you used it? Provide
       some constructive criticism or some features that impressed you.
 
 
@@ -82,7 +82,7 @@ sections:
       account with VS Code for this assignment
 
 
-      3.  Rank your 5 favorite and 5 least favorite activities from this list:
+      3. Rank your 5 favorite and 5 least favorite activities from this list:
       <https://gist.github.com/laurajodz/592402a6336410377dee1a744af846ab5>
 
 
