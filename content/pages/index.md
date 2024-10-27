@@ -48,16 +48,27 @@ sections:
     title: Experiences through the technical assessment
     subtitle: ''
     text: >
-      1\. Talk about how you made your site and why you chose the tools you did.
+      1. Talk about how you made your site and why you chose the tools you did.
       Briefly explain one challenge you experienced in setting up this site and
-      how you overcame it.Tools used:- VS Code- Ubuntu Desktop 24.04- Github and
-      git
+      how you overcame it.
 
-      About the site- I made this site using the predefinied template
-      auto-anotated-portfolio- I used VS Code and Ubuntu as these required the
-      least amount of setup and I am already familiar with these tools.
 
-      2\. What did you think of our service during the time you used it? Provide
+      Tools used:
+
+      - VS Code- Ubuntu Desktop 24.04
+
+      - Github and git
+
+
+      About the site
+
+      - I made this site using the predefinied template auto-anotated-portfolio
+
+      - I used VS Code and Ubuntu as these required the least amount of setup
+      and I am already familiar with these tools.
+
+
+      2. What did you think of our service during the time you used it? Provide
       some constructive criticism or some features that impressed you.- The
       simplicity of deploying a site to the platform is a major plus.- It was
       easier to deploy a new site than setting up a temporary github account
