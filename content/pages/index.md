@@ -43,7 +43,7 @@ sections:
     type: HeroSection
     actions: []
   - type: TextSection
-    colors: colors-d
+    colors: colors-f
     variant: variant-a
     title: Experiences through the technical assessment
     subtitle: ''
