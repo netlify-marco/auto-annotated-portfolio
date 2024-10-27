@@ -56,7 +56,7 @@ sections:
       This site was created using the auto-annotated-portfolio template from
       Netlify. Locally, my tools are; Ubuntu 24.04, VS Code, and Git. These are
       tools I am extremely familiar and comfortable with that required the least
-      amount of setup. 
+      amount of setup.
 
 
       One challenge I experienced while building and updating this site is that
@@ -72,26 +72,26 @@ sections:
 
       The service has been very intuitive and easy to navigate. The visual
       editor and auto-deployment on new commits in different branches without
-      additional user intervention is a welcomed feature. 
+      additional user intervention is a welcomed feature.
 
 
       ### Rank your 5 favorite and 5 least favorite activities from this list:
       <https://gist.github.com/laurajodz/592402a6336410377dee1a744af846ab5>
 
 
-      *   5 Favorites Activities:
-          \*   Work with the development team to help design a new feature based on feedback from customers\
-          \*   Submit bug reports and potentially bug fixes
-          \*   Join a Zoom call with a VIP customer you have been helping via email, upon their request
-          \*   Write and maintain Support Guides for our product
-          \*   Dig through server logs to troubleshoot a customer's website behavior
+      ##### 5 Favorites Activities:
+          *   Work with the development team to help design a new feature based on feedback from customers\
+          *   Submit bug reports and potentially bug fixes
+          *   Join a Zoom call with a VIP customer you have been helping via email, upon their request
+          *   Write and maintain Support Guides for our product
+          *   Dig through server logs to troubleshoot a customer's website behavior
 
-      *   5 Least Favorite Activities:
-          \*   Help manage communications during a service outage
-          \*   Respond to Netlify customers on Twitter
-          \*   Manage a Support team
-          \*   Create video tutorials to help teach users a specific feature or use case
-          \*   Respond to 20+ support requests via email every day
+      ##### 5 Least Favorite Activities:
+          *   Help manage communications during a service outage
+          *   Respond to Netlify customers on Twitter
+          *   Manage a Support team
+          *   Create video tutorials to help teach users a specific feature or use case
+          *   Respond to 20+ support requests via email every day
 
       ### Provide a link to documentation for a technical/developer-focused
       product, which you think are well done, and explain why you think they are
