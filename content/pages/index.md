@@ -46,7 +46,10 @@ sections:
     colors: colors-d
     variant: variant-a
     title: Experiences through the technical assessment
-    subtitle: The section subtitle
+    subtitle: >-
+      Talk about how you made your site and why you chose the tools you did.
+      Briefly explain one challenge you experienced in setting up this site and
+      how you overcame it.
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
