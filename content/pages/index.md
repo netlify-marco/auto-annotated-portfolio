@@ -82,9 +82,8 @@ sections:
       account with VS Code for this assignment
 
 
-
-      3. Rank your 5 favorite and 5 least favorite activities from this list:
-      <https://gist.github.com/laurajodz/592402a6336410377dee1a744af846ab5> 
+      3.  Rank your 5 favorite and 5 least favorite activities from this list:
+      <https://gist.github.com/laurajodz/592402a6336410377dee1a744af846ab5>
 
 
       *   5 Favorites Activities:
@@ -99,20 +98,19 @@ sections:
 
           *   Dig through server logs to troubleshoot a customer's website behavior
 
-      * 5 Least Favorite Activities:
-          * Help manage communications during a service outage
-          * Respond to Netlify customers on Twitter
-          * Manage a Support team 
-          * Create video tutorials to help teach users a specific feature or use case 
-          * Respond to 20+ support requests via email every day
-              
+      *   5 Least Favorite Activities:
+          *   Help manage communications during a service outage
+          *   Respond to Netlify customers on Twitter
+          *   Manage a Support team
+          *   Create video tutorials to help teach users a specific feature or use case
+          *   Respond to 20+ support requests via email every day
 
-      4. Provide a link to documentation for a technical/developer-focused
+      4.  Provide a link to documentation for a technical/developer-focused
       product, which you think are well done, and explain why you think they are
       well done.
 
 
-      * Spotify's Developer API Documentation:
+      *   Spotify's Developer API Documentation:
       <https://developer.spotify.com/documentation/web-api/tutorials/getting-started>
 
 
@@ -123,18 +121,19 @@ sections:
       to the topic being discussed. The embedded HTTP request in the Reference
       section helps reduce confusion on how to perform requests to the endpoint
       currently being reviewed and the expected output of that request.
-              
-      5. Explain, in a couple of paragraphs, what you think are two major
+
+
+      5.  Explain, in a couple of paragraphs, what you think are two major
       challenges around DNS configuration for less-technical customers hosting
       websites.
 
 
-      * 1. Determining where to update DNS records
+      *   1.  Determining where to update DNS records
 
-      * 2. CNAME aliases
+      *   2.  CNAME aliases
 
 
-      6. A customer writes in to Support saying simply that their “site won’t
+      6.  A customer writes in to Support saying simply that their “site won’t
       build”. You have access to their build logs, and there you see this error:
       Build failed due to a user error: Build script returned non-zero exit
       code: 2. You have no more information than this and the site’s source
@@ -146,26 +145,29 @@ sections:
       Troubleshooting method
 
 
-      - Update the customer that investigation into their issue has started and
-      ask initial triage questions to get a better undestanding of the site's
-      build issue timeline.
+      *   Update the customer that investigation into their issue has started
+      and ask initial triage questions to get a better undestanding of the
+      site's build issue timeline.
 
-      - Review the build logs. Start with the most recent error message and
+      *   Review the build logs. Start with the most recent error message and
       backtrack the logs to find the first instance of a relevant error for this
-      issue. 
+      issue.
 
-      - If the error is unknown to me, use internal and external resources to
+      *   If the error is unknown to me, use internal and external resources to
       find relevant information regarding the build failure.
-          - 3a. Search previous tickets for similar errors.
-          - 3b. Search internal docs for relevant build errors.
-          - 3c. If the error is not related to the internal build process, check Google for the error returned by the site's framework.
-      - Provide an update and suggest changes to the customer with the
+          *   3a. Search previous tickets for similar errors.
+          *   3b. Search internal docs for relevant build errors.
+          *   3c. If the error is not related to the internal build process, check Google for the error returned by the site's framework.
+      *   Provide an update and suggest changes to the customer with the
       information I have found through my investigation.
 
 
-      \===================================================================================Response
-      to the
-      customer===================================================================================Hello,
+      Response to the customer:
+
+
+      ```
+
+      Hello,
 
       Thank you for contacting Netlify. My name is Marco, and I will be
       reviewing your case today.
@@ -175,13 +177,25 @@ sections:
       where the build is failing. In the meantime, could you provide us with
       some additional information regarding this issue?
 
-      \- Were you able to successfully deploy the site previously?- When was the
-      last time the site was successfully deployed?- What changes (if any) were
-      made to the site between the last successful deployment and now?
+
+
+      - Were you able to successfully deploy the site previously?
+
+      - When was the last time the site was successfully deployed?
+
+      - What changes (if any) were made to the site between the last successful
+      deployment and now?
+
 
       I will update you shortly with the results of my investigation.
 
-      Warm regards,Marco S.
+
+      Warm regards,
+
+      Marco S.
+
+      ```
+
 
       \===================================================================================
 
