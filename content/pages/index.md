@@ -290,9 +290,12 @@ sections:
 
 
       Additionally, if you haven't done so yet. I please submit your report to
-      our Bug Bounty program for our Security team to review, validate, and
-      confirm the severity of this issue.Reference:
-      <https://www.netlify.com/security/https://hackerone.com/netlify?type=team>
+      our Bug Bounty program (linked below) for our Security team to review,
+      validate, and confirm the severity of this issue.
+
+      Reference: <https://www.netlify.com/security/>
+
+      <https://hackerone.com/netlify?type=team>
 
 
       We will update you via this ticket as we receive additonal update from our
