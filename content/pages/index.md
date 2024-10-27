@@ -47,29 +47,28 @@ sections:
     variant: variant-a
     title: Experiences through the technical assessment
     subtitle: ''
-    text: >
-      1.  Talk about how you made your site and why you chose the tools you did.
+    text: >-
+      ### Talk about how you made your site and why you chose the tools you did.
       Briefly explain one challenge you experienced in setting up this site and
       how you overcame it.
 
         Tools used:
-        
         *   VS Code- Ubuntu Desktop 24.04
         *   Github and git
         
-        About the site
+        About the site:
         
         *   I made this site using the predefinied template auto-anotated-portfolio
         *   I used VS Code and Ubuntu as these required the least amount of setup and I am already familiar with these tools.
 
-      2.  What did you think of our service during the time you used it? Provide
+      ### What did you think of our service during the time you used it? Provide
       some constructive criticism or some features that impressed you.
 
         *   The simplicity of deploying a site to the platform is a major plus.
         
         *   It was easier to deploy a new site than setting up a temporary github account with VS Code for this assignment
         
-      3.  Rank your 5 favorite and 5 least favorite activities from this list:
+      ### Rank your 5 favorite and 5 least favorite activities from this list:
       <https://gist.github.com/laurajodz/592402a6336410377dee1a744af846ab5>
 
         *   5 Favorites Activities:
@@ -86,21 +85,21 @@ sections:
           *   Create video tutorials to help teach users a specific feature or use case
           *   Respond to 20+ support requests via email every day
 
-      4.  Provide a link to documentation for a technical/developer-focused
+      ### Provide a link to documentation for a technical/developer-focused
       product, which you think are well done, and explain why you think they are
       well done.
         Spotify's Developer API Documentation: <https://developer.spotify.com/documentation/web-api/tutorials/getting-started>
 
         Spotify has put in effort to anticipate common questions a developer may ask when first using their API. The documentation is clean and direct to the point answering those concerns. Additionally, additional documentation is linked in-line to clearly outline the linked article's context relates to the topic being discussed. The embedded HTTP request in the Reference section helps reduce confusion on how to perform requests to the endpoint currently being reviewed and the expected output of that request.
 
-      5.  Explain, in a couple of paragraphs, what you think are two major
+      ### Explain, in a couple of paragraphs, what you think are two major
       challenges around DNS configuration for less-technical customers hosting
       websites.
 
         * Determining where to update DNS records
         * CNAME aliases
 
-      6.  A customer writes in to Support saying simply that their “site won’t
+      ### A customer writes in to Support saying simply that their “site won’t
       build”. You have access to their build logs, and there you see this error:
       Build failed due to a user error: Build script returned non-zero exit
       code: 2. You have no more information than this and the site’s source
@@ -137,7 +136,7 @@ sections:
         Marco S.
         ```
 
-      7.  How would you set up an http 301 status redirect from
+      ### How would you set up an http 301 status redirect from
       “/netlify/anything” on your site, to
       <https://www.google.com/search?q=anything>. Please provide the redirect
       formatting here. Now, how about a proxy redirect? Please add that proxy
@@ -161,14 +160,14 @@ sections:
           force = true
         ```
 
-      8. Please attempt to deploy a function on our service. This need not be
+      ### Please attempt to deploy a function on our service. This need not be
       complicated. It could be "Hello World". Note that failure to deploy is not
       failing the exercise! Whether you have trouble or not, please describe
       what you experienced and how you attempted to troubleshoot any issues you
       encountered.
 
 
-      9. We understand you don't know anything about our internal procedures at
+      ### We understand you don't know anything about our internal procedures at
       this stage, but we want you to explain at a high level how you'd react to
       this situation: You receive a report of a severe security issue on
       [www.netlify.com](http://www.netlify.com). You can't immediately confirm
@@ -178,7 +177,9 @@ sections:
       business is very concerned about security? You believe there is a
       reasonable chance the report is correct and the problem is very large and
       impactful. How might you escalate?
-        Initial Process:
+        
+        #### Initial Process:
+
           1. Update the reporter and let them know we have received their report and are actively investigating and reproducting the security issue. Suggest they submit their report to the bug bounty program.
           2. Reach out to the Support team via internal comms and confirm if this is something they've seen/heard of before.
           3. Contact the security team via internal comms and CC <security@netlify.com> (if needed on support ticket)4. Create internal bug/security ticket for Sec/Eng teams to track the resolution of the secuity issue.
