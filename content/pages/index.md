@@ -172,7 +172,8 @@ sections:
       Thank you for contacting Netlify. My name is Marco, and I will be
       reviewing your case today.
 
-      I see your site's failing to deploy during the build and complie phase.
+
+      I see the site is failing to deploy during the build and compile phase.
       Allow me some time to review the build logs further and help identify
       where the build is failing. In the meantime, could you provide us with
       some additional information regarding this issue?
@@ -197,24 +198,40 @@ sections:
       ```
 
 
-      \===================================================================================
-
-      7\. How would you set up an http 301 status redirect from
+      7.  How would you set up an http 301 status redirect from
       “/netlify/anything” on your site, to
       <https://www.google.com/search?q=anything>. Please provide the redirect
       formatting here. Now, how about a proxy redirect? Please add that proxy
       redirect rule directly to your site.
+          Add the redirect block to the netlify.toml file.
 
-      Add the redirect block to the netlify.toml file.
+      For a basic 301 redirect, I would use the following configuration block in
+      the netlify.toml file:
 
-      configuration block:===================\[\[redirects]]  from =
-      "<https://marco-technical-assessment.netlify.app/some-page>"  to =
-      "<https://www.google.com/search?q=anything>"  status = 301  force =
-      true===================
 
-      Proxy redirect block:===================\[\[redirects]]  from =
-      "/search/\*"  to = "<https://www.google.com/search?q=:splat>"  status =
-      200  force = true===================
+      ```
+
+      [[redirects]]
+        from = "https://marco-technical-assessment.netlify.app/some-page"
+        to = "https://www.google.com/search?q=anything"
+        status = 301
+        force = true
+      ```
+
+
+      To perform a proxy redirect where we use the URL path as the search query,
+      I would use the following confiugration block:
+
+
+      ```
+
+      [[redirects]]
+        from = "/search/*"
+        to = "https://www.google.com/search?q=:splat"
+        status = 200
+        force = true
+
+      ```
 
 
       8\. Please attempt to deploy a function on our service. This need not be
