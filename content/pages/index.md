@@ -48,49 +48,73 @@ sections:
     title: Experiences through the technical assessment
     subtitle: ''
     text: >
-      1. Talk about how you made your site and why you chose the tools you did.
+      1.  Talk about how you made your site and why you chose the tools you did.
       Briefly explain one challenge you experienced in setting up this site and
       how you overcame it.
 
 
       Tools used:
 
-      - VS Code- Ubuntu Desktop 24.04
 
-      - Github and git
+      *   VS Code- Ubuntu Desktop 24.04
+
+      *   Github and git
 
 
       About the site
 
-      - I made this site using the predefinied template auto-anotated-portfolio
 
-      - I used VS Code and Ubuntu as these required the least amount of setup
+      *   I made this site using the predefinied template
+      auto-anotated-portfolio
+
+      *   I used VS Code and Ubuntu as these required the least amount of setup
       and I am already familiar with these tools.
 
 
-      2. What did you think of our service during the time you used it? Provide
-      some constructive criticism or some features that impressed you.- The
-      simplicity of deploying a site to the platform is a major plus.- It was
-      easier to deploy a new site than setting up a temporary github account
-      with VS Code for this assignment
+      2.  What did you think of our service during the time you used it? Provide
+      some constructive criticism or some features that impressed you.
 
-      3\. Rank your 5 favorite and 5 least favorite activities from this list:
-      <https://gist.github.com/laurajodz/592402a6336410377dee1a744af846ab5> most
-      favs- Work with the development team to help design a new feature based on
-      feedback from customers- Submit bug reports and potentially bug fixes-
-      Join a Zoom call with a VIP customer you have been helping via email, upon
-      their request- Write and maintain Support Guides for our product- Dig
-      through server logs to troubleshoot a customer's website behavior
 
-      5 least favs - Help manage communications during a service outage- Respond
-      to Netlify customers on Twitter- Manage a Support team- Create video
-      tutorials to help teach users a specific feature or use case- Respond to
-      20+ support requests via email every day
+      *   The simplicity of deploying a site to the platform is a major plus.
 
-      4\. Provide a link to documentation for a technical/developer-focused
+
+      *   It was easier to deploy a new site than setting up a temporary github
+      account with VS Code for this assignment
+
+
+
+      3. Rank your 5 favorite and 5 least favorite activities from this list:
+      <https://gist.github.com/laurajodz/592402a6336410377dee1a744af846ab5> 
+
+
+      *   5 Favorites Activities:
+
+          *   Work with the development team to help design a new feature based on feedback from customers
+
+          *   Submit bug reports and potentially bug fixes
+
+          *   Join a Zoom call with a VIP customer you have been helping via email, upon their request
+
+          *   Write and maintain Support Guides for our product
+
+          *   Dig through server logs to troubleshoot a customer's website behavior
+
+      * 5 Least Favorite Activities:
+          * Help manage communications during a service outage
+          * Respond to Netlify customers on Twitter
+          * Manage a Support team 
+          * Create video tutorials to help teach users a specific feature or use case 
+          * Respond to 20+ support requests via email every day
+              
+
+      4. Provide a link to documentation for a technical/developer-focused
       product, which you think are well done, and explain why you think they are
-      well done.- Spotify's Developer API Documentation:
+      well done.
+
+
+      * Spotify's Developer API Documentation:
       <https://developer.spotify.com/documentation/web-api/tutorials/getting-started>
+
 
       Spotify has put in effort to anticipate common questions a developer may
       ask when first using their API. The documentation is clean and direct to
@@ -99,12 +123,18 @@ sections:
       to the topic being discussed. The embedded HTTP request in the Reference
       section helps reduce confusion on how to perform requests to the endpoint
       currently being reviewed and the expected output of that request.
-
-      5\. Explain, in a couple of paragraphs, what you think are two major
+              
+      5. Explain, in a couple of paragraphs, what you think are two major
       challenges around DNS configuration for less-technical customers hosting
-      websites.1. Determining where to update DNS records2. CNAME redirections
+      websites.
 
-      6\. A customer writes in to Support saying simply that their “site won’t
+
+      * 1. Determining where to update DNS records
+
+      * 2. CNAME aliases
+
+
+      6. A customer writes in to Support saying simply that their “site won’t
       build”. You have access to their build logs, and there you see this error:
       Build failed due to a user error: Build script returned non-zero exit
       code: 2. You have no more information than this and the site’s source
@@ -112,19 +142,25 @@ sections:
       troubleshoot this issue? What steps would you take? Also, please compose
       your best customer-facing first response.
 
-      \===================================================================================Troubleshooting
-      method===================================================================================1.
-      Update the customer that investigation into their issue has started and
+
+      Troubleshooting method
+
+
+      - Update the customer that investigation into their issue has started and
       ask initial triage questions to get a better undestanding of the site's
-      build issue timeline.2. Review the build logs. Start with the most recent
-      error message and backtrack the logs to find the first instance of a
-      relevant error for this issue.3. If the error is unknown to me, use
-      internal and external resources to find relevant information regarding the
-      build failure.3a. Search previous tickets for similar errors.3b. Search
-      internal docs for relevant build errors.3c. If the error is not related to
-      the internal build process, check Google for the error returned by the
-      site's framework.4. Provide an update and suggest changes to the customer
-      with the information I have found through my investigation.
+      build issue timeline.
+
+      - Review the build logs. Start with the most recent error message and
+      backtrack the logs to find the first instance of a relevant error for this
+      issue. 
+
+      - If the error is unknown to me, use internal and external resources to
+      find relevant information regarding the build failure.
+          - 3a. Search previous tickets for similar errors.
+          - 3b. Search internal docs for relevant build errors.
+          - 3c. If the error is not related to the internal build process, check Google for the error returned by the site's framework.
+      - Provide an update and suggest changes to the customer with the
+      information I have found through my investigation.
 
 
       \===================================================================================Response
