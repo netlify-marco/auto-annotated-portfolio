@@ -7,6 +7,6 @@
 
 [[redirects]]
   from = "https://marco-technical-assessment.netlify.app/some-page"
-  to = "https://www.google.com/search%3Fq%3Danything"
+  to = "https://www.google.com/search?q=anything"
   status = 301
   force = true
