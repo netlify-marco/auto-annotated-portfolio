@@ -53,33 +53,26 @@ sections:
       how you overcame it.
 
 
-      Tools used:
+      This site was created using the auto-annotated-portfolio template from
+      Netlify. Locally, my tools are; Ubuntu 24.04, VS Code, and Git. These are
+      tools I am extremely familiar and comfortable with that required the least
+      amount of setup. 
 
 
-      *   VS Code- Ubuntu Desktop 24.04
-
-      *   Github and git
-
-
-      About the site:
-
-
-      *   I made this site using the predefinied template
-      auto-anotated-portfolio
-
-      *   I used VS Code and Ubuntu as these required the least amount of setup
-      and I am already familiar with these tools.
+      One challenge I experienced while building and updating this site is that
+      the markdown formatting did not transfer from VS Code to the Visual Editor
+      correctly. To resolve this, I opened the editor with the Markdown toggle
+      enabled and verified the markdown formatting is correct and adjusted
+      accordingly.
 
 
       ### What did you think of our service during the time you used it? Provide
       some constructive criticism or some features that impressed you.
 
 
-      *   The simplicity of deploying a site to the platform is a major plus.
-
-
-      *   It was easier to deploy a new site than setting up a temporary github
-      account with VS Code for this assignment
+      The service has been very intuitive and easy to navigate. The visual
+      editor and auto-deployment on new commits in different branches without
+      additional user intervention is a welcomed feature. 
 
 
       ### Rank your 5 favorite and 5 least favorite activities from this list:
@@ -261,9 +254,10 @@ sections:
       something they've seen/heard of before.
 
       3. Contact the security team via internal comms and CC
-      <security@netlify.com> (if needed on support ticket)4. Create internal
-      bug/security ticket for Sec/Eng teams to track the resolution of the
-      secuity issue.
+      <security@netlify.com> (if needed on support ticket)
+
+      4. Create internal bug/security ticket for Sec/Eng teams to track the
+      resolution of the security issue.
 
       ```
 
@@ -293,9 +287,9 @@ sections:
       our Bug Bounty program (linked below) for our Security team to review,
       validate, and confirm the severity of this issue.
 
-      Reference: <https://www.netlify.com/security/>
+      Reference: https://www.netlify.com/security/
 
-      <https://hackerone.com/netlify?type=team>
+      https://hackerone.com/netlify?type=team
 
 
       We will update you via this ticket as we receive additonal update from our
