@@ -4,3 +4,15 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "https://marco-technical-assessment.netlify.app/some-page"
+  to = "https://www.google.com/search?q=anything"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/search/*"
+  to = "https://www.google.com/search?q=:splat"
+  status = 200
+  force = true
