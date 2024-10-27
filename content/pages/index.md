@@ -80,18 +80,43 @@ sections:
 
 
       ##### 5 Favorites Activities:
-          *   Work with the development team to help design a new feature based on feedback from customers\
-          *   Submit bug reports and potentially bug fixes
-          *   Join a Zoom call with a VIP customer you have been helping via email, upon their request
-          *   Write and maintain Support Guides for our product
-          *   Dig through server logs to troubleshoot a customer's website behavior
+
+
+      ```
+
+      *   Work with the development team to help design a new feature based on
+      feedback from customers
+
+      *   Submit bug reports and potentially bug fixes
+
+      *   Join a Zoom call with a VIP customer you have been helping via email,
+      upon their request
+
+      *   Write and maintain Support Guides for our product
+
+      *   Dig through server logs to troubleshoot a customer's website behavior
+
+      ```
+
 
       ##### 5 Least Favorite Activities:
-          *   Help manage communications during a service outage
-          *   Respond to Netlify customers on Twitter
-          *   Manage a Support team
-          *   Create video tutorials to help teach users a specific feature or use case
-          *   Respond to 20+ support requests via email every day
+
+
+      ```
+
+      *   Help manage communications during a service outage
+
+      *   Respond to Netlify customers on Twitter
+
+      *   Manage a Support team
+
+      *   Create video tutorials to help teach users a specific feature or use
+      case
+
+      *   Respond to 20+ support requests via email every day
+
+      ```
+
 
       ### Provide a link to documentation for a technical/developer-focused
       product, which you think are well done, and explain why you think they are
@@ -103,11 +128,11 @@ sections:
 
 
       Spotify has put in effort to anticipate common questions a developer may
-      ask when first using their API. The documentation is clean and direct to
-      the point answering those concerns. Additionally, additional documentation
-      is linked in-line to clearly outline the linked article's context relates
-      to the topic being discussed. The embedded HTTP request in the Reference
-      section helps reduce confusion on how to perform requests to the endpoint
+      ask when first using their API. The documentation is clean and direct
+      answering those concerns. Additionally, documentation is linked in-line to
+      clearly outline the linked article relates to the context of the topic
+      being discussed. The embedded HTTP request tester in the Reference section
+      helps reduce confusion on how to perform requests to the endpoint
       currently being reviewed and the expected output of that request.
 
 
@@ -116,9 +141,13 @@ sections:
       websites.
 
 
-      *   Determining where to update DNS records
-
-      *   CNAME aliases
+      Two major challenges I have experienced with DNS configurations are
+      determining where to update the DNS records and how CNAME aliases affect
+      the hostname's value. We would have to check with the Domain's registrar
+      to determine the Name Servers where the zone file resides and direct the
+      customer to that portal to perform their DNS changes. As for CNAME
+      aliases, we would have to review the output of tools like nslookup or dig
+      to determine what is taking precedence in the record's value. 
 
 
       ### A customer writes in to Support saying simply that their “site won’t
